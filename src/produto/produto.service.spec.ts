@@ -15,4 +15,8 @@ describe('ProdutoService', () => {
   it('should be defined', () => {
     expect(service).toBeDefined();
   });
+
+  it('should return a list of products', () => {
+    expect(service.getProdutos().length).toBe(3);
+  });
 });
