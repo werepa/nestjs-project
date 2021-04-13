@@ -20,7 +20,7 @@ async function bootstrap() {
     customCss: '.swagger-ui .topbar { display: none }',
   });
 
-  const port = 3001;
+  const port = 3000;
   await app.listen(port);
   logger.log(`Application listening on http://localhost:${port}`);
 }
