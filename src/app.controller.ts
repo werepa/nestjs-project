@@ -12,9 +12,4 @@ export class AppController {
   getHello() {
     return;
   }
-
-  @Get('young')
-  getYoungHello(): string {
-    return this.appService.getYoungHello();
-  }
 }
